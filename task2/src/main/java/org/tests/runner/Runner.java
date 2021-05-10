@@ -1,3 +1,7 @@
+package org.tests.runner;
+
+import org.tests.console.ConsoleInterface;
+
 public class Runner {
     public static void main(String[] args) {
         /*
@@ -7,6 +11,8 @@ public class Runner {
          которого можно: добавить студента, удалить студента по уникальному номеру, вывести список студентов.
          */
 
+        ConsoleInterface consoleInterface = new ConsoleInterface();
+        consoleInterface.runInterface();
 
     }
 }
